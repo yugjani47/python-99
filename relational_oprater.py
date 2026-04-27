@@ -1,0 +1,20 @@
+num1=float(input("enter first number"))
+num2=float(input("enter second number"))
+
+result=num1==num2
+print(f"result={num1}=={num2} {result}") 
+
+result=num1!=num2
+print(f"result={num1}!={num2} {result}")
+
+result=num1<num2
+print(f"result={num1}<{num2} {result}")
+
+result=num1>num2
+print(f"result={num1}>{num2} {result}")
+
+result=num1<=num2
+print(f"result={num1}<={num2} {result}")
+
+result=num1>=num2
+print(f"result={num1}>={num2} {result}")
